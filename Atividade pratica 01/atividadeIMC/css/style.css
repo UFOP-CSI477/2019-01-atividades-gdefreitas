@@ -1,0 +1,65 @@
+#nav-style{
+  background-color: lightgray;
+}
+
+.title-head{
+  width: 400px;
+  background-color: lightblue;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.prg-border-1{
+  border-radius: 15px;
+  width: 150px;
+  text-align: center;
+  background-color: #D3D3D3;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.prg-border-2{
+  border-radius: 15px;
+  width: 150px;
+  text-align: center;
+  background-color: #D4D4D4;
+  padding: 10px;
+  cursor: pointer;
+}
+/***************************************/
+.prg-border-purple{
+  border-radius: 15px;
+  width: 150px;
+  text-align: center;
+  background-color: #9365B8;
+  padding: 10px;
+  cursor: pointer;
+
+}
+
+.prg-border-red{
+  border-radius: 15px;
+  width: 150px;
+  text-align: center;
+  background-color: #EB6B56;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.prg-border-green{
+  border-radius: 15px;
+  width: 150px;
+  text-align: center;
+  background-color: #61BD6D;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.prg-border-yellow{
+  border-radius: 15px;
+  width: 150px;
+  text-align: center;
+  background-color: #F7DA64;
+  padding: 10px;
+  cursor: pointer;
+}

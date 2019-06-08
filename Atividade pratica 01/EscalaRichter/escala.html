@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Escala Richter</title>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">    <link rel="stylesheet" href=".\css\style.css">
+
+    <script src=".\js\jQuery\jquery-3.2.1.js"></script>
+    <script src=".\js\calculoR.js"></script>
+
+  </head>
+
+  <body>
+
+    <form name="dados">
+     
+
+      <div class="row">
+        <div class="col-md-2">
+          <div class="container">
+            <div class="container-fluid" style="margin-right: 10%;">
+
+
+                <h2 style="font-style: italic; font-size: 50px; text-align: center">Cálculo da Escala Richter</h2>
+
+                  <div id="grupoAmplitude" class="form-group">
+                    <label for="amplitude" style="font-style: italic; font-size: 30px">Amplitude (mm): </label><br>
+                    <input type="text" name="amplitude" class="form-control">
+
+                    <div class="alert alert-danger" style="display: none" id="alertaAmplitude">
+                      Informe a amplitude corretamente.
+                    </div>
+                  </div>
+
+                  <div id="grupoIntervalo" class="form-group">
+                    <label for="intervalo" style="font-style: italic; font-size: 30px">Intervalo de Tempo (s): </label>
+                    <input type="text" name="intervalo" class="form-control">
+
+                    <div class="alert alert-danger" style="display: none" id="alertaIntervalo">
+                      Informe o intervalo corretamente.
+                    </div>
+                  </div>
+
+                  <button type="button" name="calcular"  style=" bo" class="btn btn-primary">Calcular</button>
+                  <button type="reset" name="limpar" class="btn btn-warning">Limpar</button><br><br>
+
+                  <h2 style="font-style: italic; text-align: center " >Magnitude do terremoto</h2>
+
+                  <label for="resultado" style="font-style: italic; font-size: 30px">Resultado: </label>
+                  <textarea type="text" name="resultado" class="form-control" disabled="disabled" style="height: 150px"></textarea>
+            </div>
+                <img src=".\img\info.png" alt="dados" style="width: 100%; display: show;">
+
+
+
+          </div>
+        </div>
+
+
+            </div>
+
+          </div>
+        </div>
+
+
+
+      </div>
+
+    </form>
+
+  </body>
+</html>

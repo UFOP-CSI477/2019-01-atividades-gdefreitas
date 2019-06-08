@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>IMC - jQuery</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">   
+ <script src=".\js\jquery-3.2.1.min.js"></script>
+    <script src=".\js\calculoIMC.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron text-center" style="font-style:italic; background-color: #488EBE">
+        <h1>Cálculo de IMC</h1>
+      </div>
+
+    <form name="dados">
+
+      <div id="grupoPeso" class="form-group">
+        <label for="peso" style="font-style: italic;">Peso</label>
+        <input type="text" name="peso" class="form-control">
+
+        <div class="alert alert-danger" style=" font-style:italic;display: none" id="alertaPeso">
+          Informe o peso corretamente.
+        </div>
+      </div>
+
+      <div id="grupoAltura" class="form-group">
+        <label for="altura" style="font-style: italic;">Altura</label>
+        <input type="text" name="altura" class="form-control">
+
+        <div class="alert alert-danger" style="font-style:italic; display: none" id="alertaAltura">
+          Informe a altura corretamente.
+        </div>
+        <br>
+
+        <div id="grupoCalculo" class="form-group">
+          <label for="resultado" style="font-style: italic;">Resultado</label>
+          <input type="text" name="resultado" class="form-control" disabled="disabled">
+        </div>
+
+        <div id="grupoPesoIdeal" class="form-group">
+          <label for="resultado" style="font-style: italic;">Peso Ideal</label>
+          <input type="text" name="pesoIdeal" class="form-control" disabled="disabled">
+        </div>
+
+      </div>
+
+      <button type="button" name="calcular" class="btn btn-primary" style="font-weight: italic;">Calcular</button>
+      <button type="reset" class="btn btn-danger" style="font-weight: ;">Limpar</button>
+
+
+    </form>
+
+    </div>
+  </body>
+</html>
