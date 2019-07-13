@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Produtos</title>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"></head>
+<body>
+
+
+
+<h1> Produtos</h1>
+<h2>Cadastrando produtos</h2>
+	<h3>Preencha os campos corretamente</h3>
+<form>
+	<label for="nome">Nome:</label> <input placeholder="Nome" type="text" name="nome">
+	<label for="peso">Peso: </label><input placeholder="0,00kg" type="text" name="peso">
+	<label for="unidade de medida">Unidade de Medida:</label><input placeholder="Unidade de Medida "type="text" name="medida">
+	<label for="valor">Valor:</label><input placeholder="R$0,00" id="Valor" type="text" name="valor">
+	<label for="estoque incial">Estoque Inicial:</label> <input placeholder="Estoque Inicial" type="text" name="estoque">
+	<label for="fornecedor">Fornecedor:</label><input placeholder="Fornecedor" type="text" name="fornecedor">
+	<label for="mercado">Mercado:</label><br><br> 
+	Interno <input type="radio" id="mercadoi" name="mercado">	
+	Externo <input type="radio" id="mercadoe" name="mercado"><br><br>
+
+	<label for="fornecedor">Fornecedor</label>
+	<select name="fornecedor">
+		<option value="0"> Selecione:</option>
+		<option value="1"> f1:</option>
+		<option value="2"> f2:</option>
+	</select>	
+		
+</form>
+</body>
+</html>
